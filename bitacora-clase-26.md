@@ -1,8 +1,8 @@
 # Bitácora Clase 26
 
-Nombre del estudiante:
-Fecha:
-Rama:
+Nombre del estudiante:Leyder Bolaño Herrera
+Fecha:22/05/2026
+Rama:clase-26-inicio-proyecto
 
 ## Actividades realizadas
 
