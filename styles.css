@@ -56,12 +56,6 @@ button:active {
   box-shadow: none;
 }
 
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #eee;
-}
-
 .seccion-candidatos {
   background-color: white;
   padding: 25px;
@@ -80,7 +74,7 @@ footer {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 18px;
-  background-color: #fff;
+  background-color: #F9EEF3;
 }
 
 .tarjeta-candidato h3 {
@@ -92,33 +86,33 @@ footer {
   margin-top: 10px;
 }
 
-/*.tarjeta-candidato button:hover {
-  background-color: #C2185B;
-  transform: translateY(-3px);
-  filter: brightness(1.06);
-  box-shadow:
-    0 4px 14px rgba(15, 23, 42, 0.12),
-    0 18px 14px -8px rgba(241, 7, 7, 0.4),
-    0 18px 14px -8px rgba(25, 126, 12, 0.35);
+.formulario-candidato input,
+.formulario-candidato textarea {
+  background-color: #F9EEF3;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-.tarjeta-candidato button:hover::before {
-  transform: translateX(120%);
+#mensajeGuardado {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
 }
 
-.tarjeta-candidato button:hover::after {
-  transform: translateX('4px');
-}
-
-.tarjeta-candidato button:active {
-  background-color: #333;
-  transform: translateY(0px);
-  box-shadow: none;
-}
-
-.detalle-perfil {
-  margin-top: 20px;
-  padding: 15px;
+.tarjeta-guardada {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
   background-color: #F9EEF3;
   border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
 }
