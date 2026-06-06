@@ -41,7 +41,19 @@ button {
 }
 
 button:hover {
-  background-color: #6f102d;
+  background-color: #C2185B;
+  transform: translateY(-3px);
+  filter: brightness(1.06);
+  box-shadow:
+    0 4px 14px rgba(15, 23, 42, 0.12),
+    0 18px 14px -8px rgba(241, 7, 7, 0.4),
+    0 18px 14px -8px rgba(25, 126, 12, 0.35);
+}
+
+button:active {
+  background-color: #333;
+  transform: translateY(0px);
+  box-shadow: none;
 }
 
 footer {
@@ -66,7 +78,6 @@ footer {
 
 .tarjeta-candidato {
   border: 1px solid #ddd;
-  border-left: 5px solid #8A1538;
   border-radius: 10px;
   padding: 18px;
   background-color: #fff;
@@ -89,12 +100,23 @@ footer {
 
 .tarjeta-candidato button:hover {
   background-color: #C2185B;
+  transform: translateY(-3px);
+  filter: brightness(1.06);
+  box-shadow:
+    0 4px 14px rgba(15, 23, 42, 0.12),
+    0 18px 14px -8px rgba(241, 7, 7, 0.4),
+    0 18px 14px -8px rgba(25, 126, 12, 0.35);
+}
+
+.tarjeta-candidato button:active {
+  background-color: #333;
+  transform: translateY(0px);
+  box-shadow: none;
 }
 
 .detalle-perfil {
   margin-top: 20px;
   padding: 15px;
   background-color: #F9EEF3;
-  border-left: 5px solid #C2185B;
   border-radius: 8px;
 }
