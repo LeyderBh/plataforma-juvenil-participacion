@@ -5,5 +5,12 @@
     "rol": "Ninguno",
     "propuesta": "Seleccione esta opción si no se encuentra convencido",
     "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1780768392768,
+    "nombre": "Lyna",
+    "rol": "Secretaria",
+    "propuesta": "Propongo una nueva cafetera que admita distintos tipos de café y sabores para la oficina.",
+    "estado": "Perfil de práctica académica"
   }
 ]
