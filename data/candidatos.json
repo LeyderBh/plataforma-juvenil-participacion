@@ -12,5 +12,12 @@
     "rol": "Secretaria",
     "propuesta": "Propongo una nueva cafetera que admita distintos tipos de café y sabores para la oficina.",
     "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1783036325221,
+    "nombre": "Pelusa",
+    "rol": "Espia",
+    "propuesta": "Teletransportar los objetos con ayuda del maletin tecnologico",
+    "estado": "Perfil de práctica académica"
   }
 ]
